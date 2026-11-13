@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "BiteSaver",
+    "slug": "bitesaver",
+    "version": "1.4.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "bitesaver",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ecfef3"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.bitesaver.dorm"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#1b4332"
+      },
+      "package": "com.bitesaver.dorm"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": ["expo-router", "expo-font"]
+  }
+}
